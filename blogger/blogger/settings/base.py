@@ -58,7 +58,8 @@ TEMPLATES = [
                 "django.contrib.messages.context_processors.messages",
             ],
             "builtins":[
-                "blogger.blog.templatetags.tag_cloud"
+                "blogger.blog.templatetags.tag_cloud",
+                "blogger.blog.templatetags.markdown_processing",
             ]
         },
     },

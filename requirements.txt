@@ -5,11 +5,13 @@ colorama==0.4.6
 coverage==7.2.1
 Django==4.1.7
 django-htmx==1.14.0
+django-taggit==3.1.0
 factory-boy==3.2.1
 Faker==17.3.0
 flake8==6.0.0
 inflection==0.5.1
 iniconfig==2.0.0
+Markdown==3.4.1
 mccabe==0.7.0
 mypy-extensions==1.0.0
 packaging==23.0
