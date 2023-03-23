@@ -66,10 +66,6 @@ Install using *scoop*.
 > venv/scripts/activate
 ```
 
-3 - Install Django using pip install
-```
-
-```
 
 ### step 3 
 1 - Make a git clone of Django Blogger to your project folder
