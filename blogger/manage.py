@@ -10,7 +10,7 @@ def main():
     if base.DEBUG:
         os.environ.setdefault("DJANGO_SETTINGS_MODULE", "blogger.settings.local")
     else:
-        s.environ.setdefault("DJANGO_SETTINGS_MODULE", "blogger.settings.production")
+        os.environ.setdefault("DJANGO_SETTINGS_MODULE", "blogger.settings.production")
     
     try:
         from django.core.management import execute_from_command_line
