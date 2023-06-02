@@ -2,7 +2,7 @@
 
 This Django Blog project is a simple and elegant blogging platform developed using Python and Django 4.2. It utilizes Bootstrap 4 for a responsive and visually appealing user interface. The project incorporates additional libraries such as Pytest, Factoryboy, and HTMX to enhance testing, database population, and interactive web features.
 
-[!Index page screenshot](blogger.png)
+![Index page screenshot](blogger.png)
 
 ## Functionality
 
