@@ -37,13 +37,13 @@ python -m venv venv
 
 3. Activate the virtual environment:
 
-For Windows:
+*For Windows:*
 
 ```
 venv\Scripts\activate
 ```
 
-For macOS/Linux:
+*For macOS/Linux:*
 
 ```
 source venv/bin/activate
@@ -74,9 +74,7 @@ Access the application in your web browser at http://localhost:8000.
 To run the tests for the Django Blog project, execute the following command:
 
 ```
-
 pytest
-
 ```
 
 The tests utilize Pytest and Factoryboy to ensure the functionality is working as expected and to maintain code quality.
@@ -85,4 +83,3 @@ The tests utilize Pytest and Factoryboy to ensure the functionality is working a
 
 The Django Blog project is open-source and released under the MIT License. Feel free to modify and use the code for your own projects.
 
-```
