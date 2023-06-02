@@ -1,86 +1,88 @@
-# Django-Blogger Website
+# Django Blog Project
 
-Blogger website made with Django by @whosgotch
-
-<p align="center">
-   <img src="../main/blogger.png" alt="something went wrong...">
-</p></br>
-
-## Libraries and framework used
-- Python
-- Djano 4.2
-- Bootstrap 4
-- Pytest
-- Factoryboy
-- HTMX
+This Django Blog project is a simple and elegant blogging platform developed using Python and Django 4.2. It utilizes Bootstrap 4 for a responsive and visually appealing user interface. The project incorporates additional libraries such as Pytest, Factoryboy, and HTMX to enhance testing, database population, and interactive web features.
 
 ## Functionality
-- Post, update and create posts
-- Edit markdown for posts online with Markdown library
-- Read posts that another users posted
 
-<p align="center">
-   <img src="../main/single-post.png" alt="something went wrong...">
-</p></br>
+    Post Management: Users can create new posts, edit existing posts, and delete posts.
+    Markdown Editor: The project provides an online Markdown editor powered by the Markdown library. Users can write and format their blog posts using Markdown syntax.
+    Post Viewing: Users can read blog posts created by other users. The posts are displayed in a user-friendly format, making it easy to consume the content.
+    User Authentication: The project includes a user authentication system. Users can register, login, and manage their profiles.
 
+## Technologies Used
 
-## Todo
-- add tags functionality
-- add search functionality
+    Python
+    Django 4.2
+    Bootstrap 4
+    Pytest
+    Factoryboy
+    HTMX
+    Markdown Library
 
-## How to run Django-Blogger on your computer
+## Setup and Installation
 
-- Installation of the required files 
-- Creating virtual environment
-- Running Django Blogger on local host
+Follow the steps below to set up the Django Blog project on your local machine:
 
-### step 1
-1 - Download [Python 3.9+](https://www.python.org/) and install it.
-
-**OR**
-
-Install using *scoop*.
-```
-> scoop install python
-```
-
-2 - Check Python version
-```
-> python --version
+1. Clone the repository:
 
 ```
-
-3 - Install virtualenv with pip install
-```
-> pip install virtualenv
+git clone https://github.com/whosgotch/django-blog.git
 ```
 
-### step 2
-1 - Create virtual environment using virtualenv
+Create a virtual environment:
+
 ```
-> python -m virtualenv venv
+python -m venv venv
 ```
 
-2 - Activate virtual environment
+Activate the virtual environment:
+
+For Windows:
+
 ```
-> venv/scripts/activate
+venv\Scripts\activate
 ```
 
+For macOS/Linux:
 
-### step 3 
-1 - Make a git clone of Django Blogger to your project folder
 ```
-(venv) > git clone https://github.com/whosgotch/Django-Blogger.git
-```
-
-2 - Open project folder and install frameworks and libraries
-```
-(venv) > cd Django-Blogger
-(venv) > pip install -r requirements.txt
+source venv/bin/activate
 ```
 
+Install the project dependencies:
 
-3 - Run server, copy 127.0.0.1:8000 and paste it into your browser search bar.
+````
+pip install -r requirements.txt
 ```
-(venv) > python manage.py runserver
+
+Apply database migrations:
+
+```
+python manage.py migrate
+```
+
+Start the development server:
+
+```
+python manage.py runserver
+```
+
+Access the application in your web browser at http://localhost:8000.
+
+## Testing
+
+To run the tests for the Django Blog project, execute the following command:
+
+````
+
+pytest
+
+```
+
+The tests utilize Pytest and Factoryboy to ensure the functionality is working as expected and to maintain code quality.
+
+## License
+
+The Django Blog project is open-source and released under the MIT License. Feel free to modify and use the code for your own projects.
+
 ```
