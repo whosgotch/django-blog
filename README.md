@@ -2,6 +2,8 @@
 
 This Django Blog project is a simple and elegant blogging platform developed using Python and Django 4.2. It utilizes Bootstrap 4 for a responsive and visually appealing user interface. The project incorporates additional libraries such as Pytest, Factoryboy, and HTMX to enhance testing, database population, and interactive web features.
 
+[!Index page screenshot](blogger.png)
+
 ## Functionality
 
 - Post Management: Users can create new posts, edit existing posts, and delete posts.
@@ -78,8 +80,4 @@ pytest
 ```
 
 The tests utilize Pytest and Factoryboy to ensure the functionality is working as expected and to maintain code quality.
-
-## License
-
-The Django Blog project is open-source and released under the MIT License. Feel free to modify and use the code for your own projects.
 
