@@ -70,7 +70,7 @@ python manage.py migrate
 
 ```
 python manage.py shell
-from djblogger.blog.factory import PostFactory
+from blogger.blog.factory import PostFactory
 x = PostFactory.create_batch(10)
 ```
 
