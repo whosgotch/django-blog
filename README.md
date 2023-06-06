@@ -41,7 +41,6 @@ python -m venv venv
 ```
 
 3. Activate the virtual environment:
-<br>
 *For Windows:*
 
 ```
