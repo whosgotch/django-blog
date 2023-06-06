@@ -66,7 +66,15 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
-6. Start the development server:
+6. Generate data with factories:
+
+```
+python manage.py shell
+from djblogger.blog.factory import PostFactory
+x = PostFactory.create_batch(10)
+```
+
+7. Start the development server:
 
 ```
 python manage.py runserver
