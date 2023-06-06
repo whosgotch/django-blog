@@ -13,6 +13,7 @@ This Django Blog project is a simple and elegant blogging platform developed usi
 - User Authentication: The project includes a user authentication system. Users can register, login, and manage their profiles.
 <p align="center">
   <img src="gitreadme/post.gif" alt="animated" /></p>
+
 ## Technologies Used
 
 - Python
