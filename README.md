@@ -1,9 +1,9 @@
 # Django Blog Project
 
 This Django Blog project is a simple and elegant blogging platform developed using Python and Django 4.2. It utilizes Bootstrap 4 for a responsive and visually appealing user interface. The project incorporates additional libraries such as Pytest, Factoryboy, and HTMX to enhance testing, database population, and interactive web features.
-<p align="center">
+
 ![Index page screenshot](gitreadme/blogger.png)
-</p>
+
 
 ## Functionality
 
@@ -11,9 +11,8 @@ This Django Blog project is a simple and elegant blogging platform developed usi
 - Markdown Editor: The project provides an online Markdown editor powered by the Markdown library. Users can write and format their blog posts using Markdown syntax.
 - Post Viewing: Users can read blog posts created by other users. The posts are displayed in a user-friendly format, making it easy to consume the content.
 - User Authentication: The project includes a user authentication system. Users can register, login, and manage their profiles.
-
-![Post page screenshot](gitreadme/post.gif)
-
+<p align="center">
+  <img src="gitreadme/post.gif" alt="animated" /></p>
 ## Technologies Used
 
 - Python
